@@ -35,7 +35,7 @@ A personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, a
 ### 🔧 Build and Run with One Command
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 The app will be available at: [http://localhost:5173](http://localhost:5173)
