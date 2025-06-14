@@ -1,0 +1,41 @@
+.fluid-btn {
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    border-radius: 100px;
+    padding: 8px 24px;
+    gap: 10px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 12px;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    .fluid-btn {
+      font-size: 14px;
+    }
+  }
+
+  .fluid-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(185, 180, 180, 0.1), rgba(255, 255, 255, 0.5));
+    transition: width 0.4s ease;
+    z-index: -1;
+  }
+
+  .fluid-btn:hover {
+    color: #fff;
+  }
+
+  .fluid-btn:hover::before {
+    width: 100%;
+  }

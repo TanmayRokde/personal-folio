@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  font-family: Syne, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #010208;
+
+  /* font-synthesis: none; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.poppins-text-small, 
+.poppins-text-date,
+.poppins-text-medium {
+  font-family: Poppins, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #cbcbcb;
+}
+
+.poppins-text-medium {
+  font-size: 16px;
+}
+
+@media  all and (max-width: 640px) {
+  .poppins-text-date {
+    font-size: 11px;
+  }
+}
+
+
+
+
+
+.stroked-text {
+  color: #010208;  
+  -webkit-text-stroke: 1px transparent;  
+
+  text-shadow:  
+  -2px -2px 0 #CBCBCB,   
+  2px -2px 0 #CBCBCB,   
+  -2px 2px 0 #CBCBCB,    
+  2px 2px 0 #CBCBCB;     
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
