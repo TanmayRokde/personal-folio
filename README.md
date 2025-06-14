@@ -6,6 +6,7 @@ A personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, a
 
 - 🚀 Fast development setup using Vite
 - 💅 Styled with Tailwind CSS
+- 📲 Mobile supported / fully responsive
 - 🧩 Component-based structure
 - 🐳 Dockerized for local containerized development
 
