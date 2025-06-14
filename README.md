@@ -16,7 +16,7 @@ A personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, a
 ├── public/             # Static assets
 ├── src/                # Source code
 │   ├── components/     # Reusable React components
-│   ├── shared/         # Shared UI elements like PageTitle
+│   ├── helper/         # Shared UI elements like PageTitle
 │   └── data.js         # Content data (e.g., reviews, works)
 ├── Dockerfile          # Docker image definition
 ├── docker-compose.yml  # Docker Compose service config
